@@ -1,30 +1,25 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
-
 const BentoCard = () => {
   return (
-    <div className="flex flex-col gap-2">
-      <div className="flex gap-3">
-        <h1 className="h-6 w-12 bg-red-500 text-amber-50 flex items-center justify-center text-xs font-semibold cursor-pointer">
-          TIPS
-        </h1>
-        <span className="text-xs text-black mt-1">OCTOBER 29, 2019</span>
+    <div className="   h-full ml-12">
+      <div className="p-6">
+        <div className="flex items-center gap-2 mb-4">
+          <span className="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded">OFFLINE</span>
+          <span className="text-gray-500 text-sm">OCTOBER 18, 2019</span>
+        </div>
+        <h3 className="bebas text-5xl font-bold text-black mb-4 leading-tight  hover:text-red-500 transition-colors duration-200">
+          THE SCARIEST<br/> MOMENT IS ALWAYS<br/> JUST BEFORE YOU
+        </h3>
+        <p className="text-gray-600 text-sm mb-6 leading-relaxed">
+          Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of...
+        </p>
+        <button className="text-black text-sm font-medium hover:text-red-500 transition-colors duration-200">
+          Read more →
+        </button>
       </div>
-      <h1 className="bebas text-4xl font-bold transition-colors duration-200 hover:text-red-500 cursor-pointer inline-block">
-        THE SCARIEST
-        <br /> MOMENT IS ALWAYS <br />
-        JUST BEFORE YOU
-      </h1>
-      <p className="mt-10">
-        Set to launch on the manufacturer’s <br />
-        new A330neo aircraft in 2017, it’s offering lots <br />
-        of ....
-      </p>
-      <span className="inline-flex mt-6 items-center gap-2 transition-colors duration-200 hover:text-red-500 cursor-pointer">
-        Read more <IoIosArrowForward className="mt-1.5" />
-      </span>
     </div>
-  );
-};
+  )
+}
 
 export default BentoCard;
