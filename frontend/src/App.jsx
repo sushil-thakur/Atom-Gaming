@@ -1,9 +1,11 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-import Feature from "./Components/Feature";
-import FeatureCardSection from "./Components/FeatureCardSelection";
-// import BentoCard from "./Components/BentoCard";
+import Feature from "./Components/Feature/Feature";
+import FeatureCardSection from "./Components/Feature/FeatureCardSelection";
+import CardList from "./Components/Feature/CardList";
+import Recommendation from "./Components/Recommendation/Recommendation";
+
 
 
 const App = () => {
@@ -12,9 +14,10 @@ const App = () => {
       <Navbar />
       <Home/>
       <Feature/>
-    <FeatureCardSection />
-  
-    
+      <FeatureCardSection />
+       <CardList/>
+       <Recommendation/>
+      
     </div>
   );
 };

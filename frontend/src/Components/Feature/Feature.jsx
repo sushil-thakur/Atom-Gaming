@@ -1,7 +1,7 @@
 import { CgShapeCircle } from "react-icons/cg";
 import SmallCard from "./SmallCard";
 import BentoCard from "./BentoCard";
-import FeatureCardSection from "./FeatureCardSelection";
+
 
 
 const Feature = () => {

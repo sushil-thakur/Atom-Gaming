@@ -1,6 +1,7 @@
 import React from "react";
 import FeatureCard from "./FeatureCard";
-import FeatureImage from "./FeatureImage";
+import FeatureImage from "./Card";
+import CardList from "./CardList";
 
 const FeatureCardSection = () => {
   return (
@@ -29,13 +30,7 @@ const FeatureCardSection = () => {
         date="OCTOBER 18, 2019"
         title="ADJUSTING TO YOUR HOME IS NO DIFFERENT"
       />
-      <FeatureImage
-        image="/feature 5.jpg"
-        tag="OFFLINE"
-        tagColor="bg-red-500"
-        date="OCTOBER 18, 2019"
-        title="ADJUSTING TO YOUR HOME IS NO DIFFERENT"
-      />
+    
     </div>
   );
 };
