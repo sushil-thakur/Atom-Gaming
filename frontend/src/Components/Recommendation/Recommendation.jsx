@@ -1,5 +1,6 @@
 import React from 'react'
 import { CgShapeCircle } from "react-icons/cg";
+import RecommendationFeature from './RecommendationFeature';
 
 const Recommendation = () => {
   return (
@@ -14,6 +15,8 @@ const Recommendation = () => {
                 SEE ALL
               </span>
             </div>
+            <RecommendationFeature/>
+        
     </div>
   )
 }
