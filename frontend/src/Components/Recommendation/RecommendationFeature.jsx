@@ -36,6 +36,14 @@ const RecommendationFeature = () => {
         {/* <!-- Right Side Articles (2 stacked boxes) --> */}
         <div class="flex flex-col gap-6">
           {/* <!-- Top Box --> */}
+          
+             <div className=" absolute px-5 py-10 flex gap-2">
+              <span class="bg-red-400 px-3 py-1 text-xs rounded text-white ">NEWS</span>
+              <p class="text-sm mt-1 px-2">October 18, 2019</p>
+              <span></span>
+            </div>
+         
+           
           <div class="h-[240px] bg-white shadow-md p-6">
             {/* <!-- News block content --> */}
           </div>
