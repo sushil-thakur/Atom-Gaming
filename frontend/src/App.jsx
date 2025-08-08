@@ -5,6 +5,7 @@ import Feature from "./Components/Feature/Feature";
 import FeatureCardSection from "./Components/Feature/FeatureCardSelection";
 import CardList from "./Components/Feature/CardList";
 import Recommendation from "./Components/Recommendation/Recommendation";
+import Displaycard from "./Components/Recommendation/Displaycard";
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <FeatureCardSection />
        <CardList/>
        <Recommendation/>
+       <Displaycard/>
       
     </div>
   );

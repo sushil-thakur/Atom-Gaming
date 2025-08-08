@@ -1,9 +1,10 @@
 import React from "react";
+import { IoIosArrowForward } from "react-icons/io";
 
 const RecommendationFeature = () => {
   return (
-    <div class="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div class="max-w-7xl w-full grid grid-cols-3 gap-6 px-4">
+    <div class="min-h-[80vh] bg-gray-100 flex items-center justify-center w-full mt-0">
+      <div class="max-w-7xl w-full grid grid-cols-3 gap-6 px-0 py-0">
         <div class=" col-span-2 relative h-[500px] bg-black">
           <img
             src="/rec2.jpg"
@@ -36,14 +37,22 @@ const RecommendationFeature = () => {
         {/* <!-- Right Side Articles (2 stacked boxes) --> */}
         <div class="flex flex-col gap-6">
           {/* <!-- Top Box --> */}
-          
-             <div className=" absolute px-5 py-10 flex gap-2">
-              <span class="bg-red-400 px-3 py-1 text-xs rounded text-white ">NEWS</span>
-              <p class="text-sm mt-1 px-2">October 18, 2019</p>
-              <span></span>
+
+          <div className="absolute px-5 py-8 flex flex-col gap-2">
+            <div className="flex gap-2 mt-1">
+              <span className="bg-red-400 px-3 py-1 text-xs rounded text-white cursor-pointer">
+                NEWS
+              </span>
+              <p className="text-sm mt-1 px-2">October 18, 2019</p>
             </div>
-         
-           
+            <span className="py-1 px-1 bebas text-3xl text-semibold hover:text-red-500">
+              The Two Most Important <br /> Tools to Reconnect
+            </span>
+            <div className="px-53 cursor-pointer py-10 text-xs flex justify-evenly text-semibold">
+              Read More <IoIosArrowForward className="mt-1" />
+            </div>
+          </div>
+
           <div class="h-[240px] bg-white shadow-md p-6">
             {/* <!-- News block content --> */}
           </div>
@@ -51,6 +60,20 @@ const RecommendationFeature = () => {
           {/* <!-- Bottom Box (Red background) --> */}
           <div class="h-[240px] bg-red-600 shadow-md p-6 text-white">
             {/* <!-- Review block content --> */}
+            <div className="absolute px-5 py-3 flex flex-col gap-2">
+              <div className="flex gap-2 mt-1">
+                <span className="bg-red-400 px-3 py-1 text-xs rounded text-white cursor-pointer">
+                  REVIEW
+                </span>
+                <p className="text-sm mt-1 px-2">October 18, 2019</p>
+              </div>
+              <span className="py-1 px-1 bebas text-3xl text-semibold ">
+                The Two Most Important <br /> Tools to Reconnect
+              </span>
+              <div className="px-50 cursor-pointer py-8 text-xs flex justify-evenly text-semibold">
+                Read More <IoIosArrowForward className="mt-1" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
