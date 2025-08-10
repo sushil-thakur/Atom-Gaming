@@ -6,6 +6,7 @@ import FeatureCardSection from "./Components/Feature/FeatureCardSelection";
 import CardList from "./Components/Feature/CardList";
 import Recommendation from "./Components/Recommendation/Recommendation";
 import Displaycard from "./Components/Recommendation/Displaycard";
+import LatestNewa from "./Components/Recommendation/LatestNewa";
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
        <CardList/>
        <Recommendation/>
        <Displaycard/>
+       <LatestNewa/>
       
     </div>
   );

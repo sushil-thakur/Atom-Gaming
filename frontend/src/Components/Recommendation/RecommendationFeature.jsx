@@ -1,9 +1,10 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
 
+
 const RecommendationFeature = () => {
   return (
-    <div class="min-h-[80vh] bg-gray-100 flex items-center justify-center w-full mt-0">
+    <div class="min-h-[80vh] bg-gray-100 flex items-center justify-center w-full mt-0 ml-5">
       <div class="max-w-7xl w-full grid grid-cols-3 gap-6 px-0 py-0">
         <div class=" col-span-2 relative h-[500px] bg-black">
           <img
@@ -77,6 +78,7 @@ const RecommendationFeature = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

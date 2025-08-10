@@ -6,7 +6,7 @@ const Recommendation = () => {
   return (
         <div className="w-full max-w-7xl mx-auto px-4 py-8  mt-0">
             {/* Header Section */}
-            <div className="flex items-center gap-3 mb-8 ml-12">
+            <div className="flex items-center gap-3 mb-8 ml-5">
               <CgShapeCircle className="text-red-500 text-2xl" />
               <h2 className="bebas text-3xl font-bold text-black tracking-wide">
                 Recommendation

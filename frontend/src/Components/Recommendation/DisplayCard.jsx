@@ -33,7 +33,7 @@ const cards = [
 const Displaycard = () => {
 	const [activeIndex, setActiveIndex] = useState(0); // first active by default
 	return (
-		<section className="w-full py-20 bg-white px-12 md:px-32">
+		<section className="w-full bg-white pt-12 pb-20 md:pt-12 md:pb-24 pl-16 pr-12 md:pl-39 md:pr-32 -mt-6 md:-mt-10">
 			<div
 				className="max-w-[1600px] mx-auto grid grid-cols-1 md:grid-cols-3 border border-gray-200"
 				onMouseLeave={() => setActiveIndex(0)}
