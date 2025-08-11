@@ -1,12 +1,12 @@
 import React from "react";
 
-const LatestNews2 = () => {
+const LatestNews3 = () => {
   return (
     <div className="w-3/4 flex gap-7">
       {/* First Image with Overlay */}
       <div className="relative group w-[45%] h-[38%] rounded-xl overflow-hidden">
         <img
-          src="/latest2.jpg"
+          src="/rec5.jpg"
           alt=""
           className="w-full h-full object-cover rounded-xl"
         />
@@ -21,7 +21,7 @@ const LatestNews2 = () => {
 
         {/* Text & Labels */}
         <h1 className="bebas absolute top-0 left-0 text-white text-3xl mt-70 ml-7 cursor-pointer">
-          Want to Strengthen Your <br /> Relationship?
+          Going Bald Taught Me Not to  <br /> Care About Stupid Shit
         </h1>
         <span className="absolute bg-red-500 px-3 py-1 text-xs rounded text-white cursor-pointer mt-90 ml-7 top-0 left-0">
           Games
@@ -34,7 +34,7 @@ const LatestNews2 = () => {
       {/* Second Image with Overlay */}
       <div className="relative group w-[45%] h-[38%] rounded-xl overflow-hidden">
         <img
-          src="/latest3.jpg"
+          src="/rec6.jpg"
           alt=""
           className="w-full h-full object-cover rounded-xl"
         />
@@ -47,8 +47,8 @@ const LatestNews2 = () => {
   [background-size:14px_14px]"
         ></div>
         <h1 className="bebas absolute top-0 left-0 text-white text-3xl mt-70 ml-7 cursor-pointer">
-          A Simple Way to Address the
-          <br /> Gap Between Attention
+          Beauty is Gene Deep but give 
+          <br /> me those little imperfections
         </h1>
         <span className="absolute bg-red-500 px-3 py-1 text-xs rounded text-white cursor-pointer mt-90 ml-7 top-0 left-0">
           News
@@ -61,4 +61,4 @@ const LatestNews2 = () => {
   );
 };
 
-export default LatestNews2;
+export default LatestNews3;

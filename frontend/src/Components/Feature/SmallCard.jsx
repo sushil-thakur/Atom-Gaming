@@ -7,13 +7,13 @@ const SmallCard = ({ tag, tagColor, date, title, image }) => {
       <div className="flex-1">
       <div className="flex items-center gap-2 mb-2">
         <span
-          className={`text-white text-xs font-bold px-2 rounded ${tagColor}`}
+          className={`text-white text-xs font-bold px-2 rounded h-5  flex items-center justify-center ${tagColor}`}
         >
           {tag}
         </span>
         <span className="text-xs text-gray-500">{date}</span>
       </div>
-      <h3 className="bebas text-2xl font-normal leading-5 hover:text-red-500 cursor-pointer">
+      <h3 className="bebas text-2xl font-normal leading-5 hover:text-red-500 cursor-pointer ">
         {title}
       </h3>
       </div>
