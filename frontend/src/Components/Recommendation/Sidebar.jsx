@@ -1,21 +1,18 @@
 import React from "react";
 
-const Sidebar = ({ tag, title  }) => {
+const Sidebar = ({ tag, title, imageUrl }) => {
   return (
-    <div className="flex gap-4">
-      <div className="relative">
-      
-        <span
-          className={`absolute bottom-1 left-1 w-20px text-white text-xs font-bold p-1 rounded-md `}
-        >
+    <div className="flex gap-4 mb-6 items-start">
+      {/* Tag number on the left */}
+      <div className="flex-shrink-0 w-8 h-8 flex items-center justify-center">
+        <span className="text-2xl font-bold text-gray-800">
           {tag}
         </span>
       </div>
-      <div className="flex-1">
-        <div className="flex items-center gap-2 mb-2">
       
-        </div>
-        <h3 className="bebas text-2xl font-normal leading-5 hover:text-red-500 cursor-pointer mt-5">
+      {/* Title on the right */}
+      <div className="flex-1">
+        <h3 className="bebas text-2xl font-normal leading-snug hover:text-red-500 cursor-pointer uppercase tracking-wide">
           {title}
         </h3>
       </div>

@@ -8,7 +8,6 @@ import { IoIosSearch } from "react-icons/io";
 import SmallCard1 from "./SmallCard1";
 import Sidebar from "./Sidebar";
 
-
 const LatestNewa = () => {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-8  -mt-6 md:-mt-12">
@@ -98,7 +97,9 @@ const LatestNewa = () => {
           <IoIosSearch className="absolute h-5 w-5 text-gray-400 ml-70 -mt-9" />
         </div>
 
-        <h1 className="text-2xl bebas text-black mt-10 font-bold">POSTS LIST</h1>
+        <h1 className="text-2xl bebas text-black mt-10 font-bold">
+          POSTS LIST
+        </h1>
 
         {/* Sidebar Small Cards */}
         <SmallCard1
@@ -119,15 +120,42 @@ const LatestNewa = () => {
           title="Keep Your Eyes on the Stars and Your Feet on the Ground"
           image="/sidebar3.jpg"
         />
-        <h1 className="text-2xl bebas text-black mt-15 font-bold">POSTS LIST</h1>
-          <img src="/sidebar main.jpg" alt="" className="w-full h-15vh rounded-xl"/>
-        
+        <h1 className="text-2xl bebas text-black mt-15 font-bold mb-7">
+          POSTS LIST
+        </h1>
+       <div class="relative">
+  <img
+    src="/sidebar main.jpg"
+    alt=""
+    class="w-full h-15vh rounded-xl"
+  />
+  <div class="absolute top-0 left-0 p-1 flex">
+    <span class=" text-white text-3xl font-bold px-1 py-1 rounded mt-17">1</span>
+    <p class="text-white text-2xl font-bold mt-17 bebas cursor-pointer ">Family-owned florist business looks</p>
+  </div>
+</div>
       </div>
+      <div className="ml-244">
       <Sidebar
-      tag="1"
-       title="Keep Your Eyes on the Stars and Your Feet on the Ground"
-
+        tag="2"
+        title="It's better to be a lion for a day than sheep all your life"
       />
+       <hr className="text-gray-400 mb-3"/>
+      <Sidebar
+        tag="3"
+        title="Keep your eyes on the stars and your feet on the ground"
+      />
+      <hr className="text-gray-400 mb-3"/>
+      <Sidebar
+        tag="4"
+        title="Every next level of your life will demand a different you"
+      />
+      <hr className="text-gray-400 mb-3"/>
+      <Sidebar
+        tag="5"
+        title="And a lonely stranger has spoke to me ever since"
+      />
+      </div>
     </div>
   );
 };
