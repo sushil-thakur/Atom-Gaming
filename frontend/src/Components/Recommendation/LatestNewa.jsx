@@ -156,6 +156,25 @@ const LatestNewa = () => {
         title="And a lonely stranger has spoke to me ever since"
       />
       </div>
+      <h1 className="bebas text-4xl ml-244 mt-10">SUBSCRIBE US</h1>
+      <div className="ml-244 mt-10 ">
+        <div className="relative">
+          <input
+            type="text"
+            placeholder="ENTER YOUR EMAIL ADDRESS"
+             className="block w-full  border border-black focus:border-red-500 focus:ring-red-500 sm:text-sm h-14 pl-10"
+          />
+        <input
+  type="text"
+  placeholder="SUBSCRIBE"
+  className="w-full  border border-red-500 bg-red-500 text-white placeholder-white 
+             text-center h-14 hover:bg-white hover:text-red-500 hover:placeholder-red-500 
+             focus:bg-white focus:text-red-500 focus:placeholder-red-500 transition mt-5"
+/>
+
+
+          </div>
+          </div>
     </div>
   );
 };
