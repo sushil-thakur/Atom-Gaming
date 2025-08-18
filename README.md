@@ -111,19 +111,6 @@ Then:
 const base = import.meta.env.VITE_API_BASE_URL;
 ```
 
-## Linting
-
-Run ESLint:
-
-```powershell
-npm run lint
-```
-
-Fix issues (add `--fix` manually if desired):
-
-```powershell
-npm run lint -- --fix
-```
 
 ## Deployment
 
